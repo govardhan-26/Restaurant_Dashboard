@@ -1,0 +1,61 @@
+.nav-container{
+    background-color: black;
+    margin: 10px;
+    padding:10px;
+}
+
+nav{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+}
+
+.nav1{
+    color: aliceblue;
+    font-weight:bolder;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #000, 
+               -1px -1px 0 #000, 
+               1px -1px 0 #000, 
+               -1px 1px 0 #000;
+    font-size: larger;
+
+} 
+
+.nav2{
+    color: aliceblue;
+    font-weight:bolder ;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #000, 
+               -1px -1px 0 #000, 
+               1px -1px 0 #000, 
+               -1px 1px 0 #000;
+    font-size: larger;
+
+}
+
+.logout{
+    appearance: none;
+    background-color: red;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    height: 2.5rem;
+}

@@ -1,0 +1,46 @@
+
+.bookmarkedmaps{
+    display: flex;
+    flex-direction: column;
+    padding : 40px;
+    margin-left: 120px;
+}
+.heading{
+    background: transparent;
+    opacity: 1;
+    backdrop-filter: blur(2px);
+    display: inline-block;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.bookmarkedmaps > *{
+    margin: 20px;
+}
+
+.bookmarkedmaps
+{
+    position : absolute; 
+    top: 160px;  
+}
+
+.single-map{
+    display: flex;
+}
+
+.map-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+heading{
+    -webkit-text-stroke: 0.5px rgb(255, 3, 3);
+    text-shadow:
+   -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+   -2px 2px 0  #fff,
+    2px 2px 0  #fff;
+    font-weight: bolder;
+    font-size: 300%;
+}

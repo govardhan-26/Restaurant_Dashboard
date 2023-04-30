@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Montserrat:wght@200;300&display=swap');
+
+body
+{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-image: url("./img.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  color: aliceblue;
+}
+
+.control-container
+{
+  display:none;
+}
+
